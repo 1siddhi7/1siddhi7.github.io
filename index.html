@@ -9,6 +9,7 @@
     <meta name="description" content="Portfolio website">
     <meta name="author" content="Website of Siddhi Brahmbhatt">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -357,6 +358,35 @@ Ladders".</p>
 
 
                         </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">My shots:</h2>
+                        <div class="w3-content w3-section" style="max-width:400px">
+                          <img class="mySlides w3-animate-fading" src="assets/images/photography/1.jpg" style="width:100%">
+                          <img class="mySlides w3-animate-fading" src="assets/images/photography/2.jpg" style="width:100%">
+                          <img class="mySlides w3-animate-fading" src="assets/images/photography/3.jpg" style="width:100%">
+                          <img class="mySlides w3-animate-fading" src="assets/images/photography/4.jpg" style="width:100%">
+                        </div>
+
+                        <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                          }
+                          myIndex++;
+                          if (myIndex > x.length) {myIndex = 1}
+                          x[myIndex-1].style.display = "block";
+                          setTimeout(carousel, 9000);
+                        }
+                        </script>
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
