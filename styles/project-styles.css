@@ -8,6 +8,12 @@
 
 .card img {
   width: auto;
+  height: 200px;
+}
+
+.card iframe {
+  width: auto;
+  height: 200px;
 }
 
 .navbar-brand{
