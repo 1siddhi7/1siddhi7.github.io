@@ -2,6 +2,10 @@
     font-family: cursive;
 } */
 
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
 div{
     /* margins:0 px; */
     overflow:hidden;

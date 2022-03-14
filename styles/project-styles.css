@@ -5,7 +5,12 @@
     flex-direction: row;
   }
 }
-
+.card{
+  border-radius: 10px;
+}
+.card-subtitle{
+  font-weight: normal;
+}
 .card img {
   width: auto;
   height: 200px;
