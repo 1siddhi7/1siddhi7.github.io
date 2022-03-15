@@ -12,12 +12,12 @@
   font-weight: normal;
 }
 .card img {
-  width: auto;
+  width: 250px;
   height: 200px;
 }
 
 .card iframe {
-  width: auto;
+  width: 250px;
   height: 200px;
 }
 
