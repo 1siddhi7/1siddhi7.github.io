@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 720px) {
   .card{
     flex-direction: row;
   }
@@ -11,9 +11,14 @@
 .card-subtitle{
   font-weight: normal;
 }
+
+@media screen and (min-width: 720px){
 .card img {
-  width: 250px;
-  height: 200px;
+  width: 35%;
+}}
+
+.card img {
+  height: 250px;
 }
 
 .card iframe {
