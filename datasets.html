@@ -37,12 +37,93 @@
 
          
           <div class = "intro">Through personal projects and research internships, I have realized that collecting and managing
-            new data beyond existing academic datasets is as important as learning algorithms for modern ML problems! So, I am also interested in 
-            <b><i>research that involves creating novel datasets and applying ML algorithms to solve real‑world problems</i></b>. Find out more about
-            some of the dataset-creation works I have been a part of.
+            new data beyond existing academic datasets is as important as learning algorithms for modern ML problems! So, I am very interested in 
+            <b><i>research that involves creating novel datasets and applying ML algorithms to solve real‑world problems</i></b>. Find below about
+            some of the dataset-creation works that I have been a part of.
           </div>
 
-          <h3 style="padding: 20px;">More details coming soon!</h3>
+          <div class="container-fluid"> 
+            <div class="card shadow mb-4 bg-light">
+              <figure class="figure">
+                <img src="assets/images/datasets/indra.png" class="card-img-top" alt="...">
+                <figcaption class="figure-caption" style="padding-left: 10px;"> Example frames from INDRA dataset (green=safe, red=unsafe).</figcaption>
+              </figure>
+               
+                <div class="card-body">
+                  <h5 class="card-title">INDRA (INdian Dataset for RoAd crossing)</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Entirely collected by me using SJCam SJ4000 12MP action camera.</h6>
+                 
+                  <p class="card-text">
+                      <ul>
+                          <li><i>INDRA</i> dataset consists of 104 videos (>26k frames) recording <b><i>Indian traffic scenarios from pedestrian viewpoint</i></b>. 
+                            Each frame of the dataset is labelled as safe/unsafe for crossing road.</li>
+                          <li>Additionally, vehicle bounding boxes detected by state of the art RetinaNet for each frame of the dataset are released as
+                            auxiliary data.</li>
+                          <li>For my <a href="https://roadcross-assistant.github.io/Website/" target="_blank">Road Crossing Assistant project</a>, I used this dataset to train a classifier to predict road crossing safety. </li>
+                            
+                      </ul>
+                  </p>
+                  <a href="https://www.kaggle.com/datasets/siddhi17/road-crossing-dataset" target="_blank" class="btn btn-primary">Download the dataset</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="container-fluid"> 
+            <div class="card shadow mb-4 bg-light">
+              <figure class="figure">
+                <img src="assets/images/datasets/PARKS_Gaze.png" class="card-img-top" alt="...">
+                <figcaption class="figure-caption" style="padding-left: 10px; padding-top: 10px;"> Sample images from PARKS-Gaze Evaluation Subset.</figcaption>
+              </figure>
+               
+                <div class="card-body">
+                  <h5 class="card-title">PARKS-Gaze - A Precision-focused Gaze Estimation Dataset in the Wild under Extreme Head Poses</h5>
+                 
+                  <p class="card-text">
+                      <ul>
+                          <li>This appearance-based gaze estimaion dataset focuses on two things which earlier datasets did not address: precision and wide head pose 
+                            angles. This is the <b><i>largest in-the-wild appearance-based gaze estimation dataset</i></b> in terms of total number of frames collected.</li>
+                          <li>My contributions:
+                            <ul>
+                              <li>Involved in building initial parts of the data collection software during my internship at 
+                                <a href="https://cambum.net/I3D.htm" target="_blank">I3D Lab</a>, IISc Bangalore.</li>
+                                <li>Volunteered as one of the 18 participants for data-collection.</li>
+                            </ul>
+                          </li>
+                            
+                      </ul>
+                  </p>
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3490100.3516467" target="_blank" class="btn btn-primary">Paper</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="container-fluid"> 
+            <div class="card shadow mb-4 bg-light">
+              <figure class="figure">
+                <img src="assets/images/datasets/sidewalk.png" class="card-img-top" alt="...">
+                <figcaption class="figure-caption" style="padding-left: 10px; padding-top: 10px;"> Sample images from the dataset.</figcaption>
+              </figure>
+               
+                <div class="card-body">
+                  <h5 class="card-title">Pedestrian Viewpoint Dataset for Assistive Technology</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Collaboration with <a href="https://www.ximira.org/" target="_blank">Ximira LLC</a>.</h6>
+                 
+                  <p class="card-text">
+                      <ul>
+                          <li>With an aim to enable blind people to walk safely, we are collecting data of outdoor scenes from pedestrian view-point (work in progress
+                            currently).
+                          </li>
+                          <li>We plan to use this data to learn an image segmentation model (to detect roads, sidewalks, crosswalks, potholes etc) and integrate it into Ximira's
+                            AI based visual assistance system for the blind.
+                          </li>
+                          
+                            
+                      </ul>
+                  </p>
+                </div>
+              </div>
+          </div>
+
         
        
       
