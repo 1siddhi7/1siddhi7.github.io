@@ -14,18 +14,27 @@
 
 @media screen and (min-width: 720px){
 .card img {
-  width: 35%;
+  width: 350px;
 }}
 
 .card img {
   height: 250px;
 }
 
-.card iframe {
-  width: 250px;
-  height: 200px;
-}
+@media screen and (min-width: 720px){
+  .card iframe {
+    width: 350px;
+  }}
+  
+  .card iframe {
+    height: 250px;
+  }
+
 
 .navbar-brand{
   font-weight: normal;
+}
+
+.intro{
+  padding: 20px;
 }
